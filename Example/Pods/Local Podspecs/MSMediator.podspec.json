@@ -1,0 +1,22 @@
+{
+  "name": "MSMediator",
+  "version": "0.1.0",
+  "summary": "A short description of MSMediator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MSMediator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leikai": "leikai@mosainet.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MSMediator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSMediator/Classes/**/*"
+}
