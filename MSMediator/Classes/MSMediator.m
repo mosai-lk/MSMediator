@@ -7,15 +7,21 @@
 //
 
 #import "MSMediator.h"
+@interface MSMediator ()
+
+@property (nonatomic, strong) NSMutableDictionary *cachedTarget;
+
+@end
 
 @implementation MSMediator
+
 #pragma mark - public methods
 + (instancetype)sharedInstance
 {
-    static CTMediator *mediator;
+    static MSMediator *mediator;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        mediator = [[CTMediator alloc] init];
+        mediator = [[MSMediator alloc] init];
     });
     return mediator;
 }
